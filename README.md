@@ -21,7 +21,35 @@ Just to get easily going in utilizing this resource, a few sample text files are
 
 
 ## Text Analysis 
-Functions for text analysis such as tokenization, part-of-speech tagging, and named entity recognition.
+Functions for text analysis such as space normalization, tokenization based on morphology analyser which is konlpy, and removing stop words.
+
+### space normalization
+
+
+### tokenization with konlpy
+To make long texts into countable word-like units and to extract noun-like tokens only 
+
+ex) 
+import konlpy
+from konlpy.tag import Komoran
+moran = Komoran()
+moran.nouns('그의 홀소리와 닿소리와 또는 첫소리와 나중소리를 ') 
+
+we have ['홀소리', '닿소리', '소리', '나중', '소리']
+
+Also to have more meaningful units, set a user dictionary which is a list of correct unit of tokens. 
+
+ex) '나중소리' instead of '나중' and '소리'
+moran = Komoran(userdic="dic_komoran.user")
+moran.nouns('그의 홀소리와 닿소리와 또는 첫소리와 나중소리를 ')
+
+we have ['홀소리', '닿소리', '첫소리', '나중소리']
+
+
+### removing stop words 
+To do topic modelling without too frequent not meaninful words
+
+ex) '것', '일', '때', '수', '잇', '듯', '이', '하', '등', '중' etc are needed to be removed before topic modelling
 
 ## Topic modelling and the Visualization: 
 Tools for visualizing linguistic data, including frequency distributions, word clouds, and co-occurrence networks.
