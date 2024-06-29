@@ -24,7 +24,12 @@ Just to get easily going in utilizing this resource, a few sample text files are
 Functions for text analysis such as space normalization, tokenization based on morphology analyser which is konlpy, and removing stop words.
 
 ### space normalization
+Raw data which were provided by national library are often put in spaces in between characters of a word following the original paper material. 
+It is necessary to normalize spaces i.e. remove spaces in between a word to have normal word units. 
 
+raw) 한 글 마 춤 법, 조 선 어 학 회, 주 시 경
+
+after) 한글마춤법, 조선어학회, 주시경
 
 ### tokenization with konlpy
 To make long texts into countable word-like units and to extract noun-like tokens only 
