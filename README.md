@@ -32,8 +32,7 @@ Sample Datasets: Example datasets from the Korea National Library for testing an
 To get started with using the scripts, clone this repository and follow the instructions in the README file. The repository includes detailed documentation for each script and tool, as well as example usage.
 
 ```command terminal 
-git clone https://github.com/Chris-eunkyoung-Jo/NL_Ling-Periodicals.git
-
+git clone https://github.com/Chris-eunkyoung-Jo/NL_Ling_Periodicals.git
 cd NL_Ling-Periodicals
 ```
 Voilà the cloned repository. 
