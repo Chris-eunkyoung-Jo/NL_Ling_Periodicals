@@ -5,7 +5,7 @@ Welcome to the Linguistic Periodicals Text Processing repository! This repositor
 ## Text Cleaning and Preprocessing: 
 Scripts to clean and preprocess the digitized texts such as making directories for each periodical and converting Hanja(sino-Korean character) to Hangul(Korean character)
 
-The digitized texts are the following. 
+Pre_Ling_Periodicals.py does preprocessing for the following digitized texts. 
 
 - 󰡔한글󰡕은 조선어학회 기관지.
 󰡔Hangul󰡕 is the organization journal of a linguistic academic community of JoseoneoHakHoe whereby Joseoneo or Choseoneo is the name of Korean Language in the Japanese colonized period. 
@@ -23,7 +23,7 @@ Just to get easily going in utilizing this resource, a few sample text files are
 ## Text Analysis 
 Functions for text analysis such as space normalization, tokenization based on morphology analyser which is konlpy, and removing stop words.
 
-Therefore, Hangul_JeonUm_Choseoneo.ipynb includes: 
+Therefore, Hangul_JeonUm_Choseoneo.ipynb does: 
 
 ### space normalization
 Raw data which were provided by national library are often put in spaces in between characters of a word following the original paper material. 
