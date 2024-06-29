@@ -1,5 +1,5 @@
 # NL_Ling_Periodicals
-Welcome to the Linguistic Periodicals Text Processing repository! This repository contains Python scripts and tools for processing digitized text data of linguistic periodicals:󰡔Hangul󰡕, 󰡔JeongUm󰡕, 󰡔Wolgan Joseoneo󰡕  which were provided by the Korea National Library. Our goal is to make it easier for researchers, linguists, and enthusiasts to analyze and work with these valuable texts.
+Welcome to the Linguistic Periodicals Text Processing repository! This repository contains Python scripts and tools for processing digitized text data of linguistic periodicals:󰡔Hangul󰡕, 󰡔JeongUm󰡕, 󰡔Wuolgan Joseoneo󰡕  which were provided by the Korea National Library. Our goal is to make it easier for researchers, linguists, and enthusiasts to analyze and work with these valuable texts.
 
 # Features
 ## Text Cleaning and Preprocessing: 
@@ -14,7 +14,7 @@ The digitized texts are the following.
 󰡔JeongUm󰡕 is the organization journal of another linguistic academic community of Joseoneo.  
 
 - 󰡔월간 조선어󰡕는 총독부 관변 조선어연구회 기관지
-󰡔Wolgan Joseoneo󰡕 is the organization journal of yet another linguistic academic community of Joseoneo which mainly the colonialist office. 
+󰡔Wuolgan Joseoneo󰡕 is the organization journal of yet another linguistic academic community of Joseoneo which mainly the colonialist office. 
 
 However, the full digitized contents are not released in this repository due to the license.  Please ask rink@korea.kr (국립중앙도서관 연구정보실). 
 Just to get easily going in utilizing this resource, a few sample text files are included. 
