@@ -1,5 +1,5 @@
 # NL_Ling_Periodicals
-Welcome to the Linguistic Periodicals Text Processing repository! This repository contains Python scripts and tools for processing digitized text data of linguistic periodicals:󰡔Hangul󰡕, 󰡔JeongUm󰡕, 󰡔Wuolgan Joseoneo󰡕  which were provided by the Korea National Library. Our goal is to make it easier for researchers, linguists, and enthusiasts to analyze and work with these valuable texts.
+Welcome to the Linguistic Periodicals Text Processing repository! This repository contains Python scripts and tools for processing digitized text data of linguistic periodicals:󰡔Hangul󰡕, 󰡔JeongUm󰡕, 󰡔Wuolgan Choseoneo󰡕  which were provided by the Korea National Library. Our goal is to make it easier for researchers, linguists, and enthusiasts to analyze and work with these valuable texts.
 
 # Features
 ## Text Cleaning and Preprocessing: 
@@ -8,13 +8,13 @@ Scripts to clean and preprocess the digitized texts such as making directories f
 The digitized texts are the following. 
 
 - 󰡔한글󰡕은 조선어학회 기관지.
-󰡔Hangul󰡕 is the organization journal of a linguistic academic community of JoseoneoHakHoe whereby Joseoneo is the name of Korean Language in the Japanese colonized period. 
+󰡔Hangul󰡕 is the organization journal of a linguistic academic community of JoseoneoHakHoe whereby Joseoneo or Choseoneo is the name of Korean Language in the Japanese colonized period. 
 
 - 󰡔정음󰡕은 조선어학연구회 기관지 
 󰡔JeongUm󰡕 is the organization journal of another linguistic academic community of Joseoneo.  
 
 - 󰡔월간 조선어󰡕는 총독부 관변 조선어연구회 기관지
-󰡔Wuolgan Joseoneo󰡕 is the organization journal of yet another linguistic academic community of Joseoneo which mainly the colonialist office. 
+󰡔Wuolgan Choseoneo󰡕 is the organization journal of yet another linguistic academic community of Joseoneo which mainly the colonialist office. 
 
 However, the full digitized contents are not released in this repository due to the license.  Please ask rink@korea.kr (국립중앙도서관 연구정보실). 
 Just to get easily going in utilizing this resource, a few sample text files are included. 
@@ -22,6 +22,8 @@ Just to get easily going in utilizing this resource, a few sample text files are
 
 ## Text Analysis 
 Functions for text analysis such as space normalization, tokenization based on morphology analyser which is konlpy, and removing stop words.
+
+Therefore, Hangul_JeonUm_Choseoneo.ipynb includes: 
 
 ### space normalization
 Raw data which were provided by national library are often put in spaces in between characters of a word following the original paper material. 
